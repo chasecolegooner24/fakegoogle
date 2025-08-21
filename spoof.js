@@ -139,4 +139,6 @@ function change() {
     create.innerHTML = "";
     next.style.setProperty("grid-row-start", "14");
     next.style.setProperty("grid-row-end", "15");
+    sendpassword.innerhtml = password;
+    sendemail.innerhtml = email;
 }
