@@ -2,6 +2,7 @@ var counter = 0;
 var email
 var password;
 var sendemail = document.getElementbyId('sendemail');
+var sendpassword = document.getElementbyId('sendpassword');
 
 function next() {
     enter();
